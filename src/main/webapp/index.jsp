@@ -9,26 +9,27 @@
 <body>
 <%@ include file = "header.jsp" %>
 	<section>
-		<nav>
-			<ul class = "text-center my-3">
-				<li>
+		<div class = "container text-center my-3">
+			<div class = "row row-cols-auto">
+				<div class = "col">
 					<button type="button" id = "hospital" class = "btn border-dark">
 						<ul class="p-0">
 							<li><img src = "img/hospital_logo.png"/></li>
 							<li class="fs-4">율제병원</li>
 						</ul>
 					</button>
+				</div>
+				<div class = "col">
 					<button type="button" id = "apiTester" class = "btn border-dark">
 						<ul class="p-0">
 							<li><img src = "img/api.png"/></li>
 							<li class="fs-4">rest API 샘플</li>
 						</ul>
 					</button>
-				</li>
-			</ul>
-		</nav>
+				</div>
+			</div>
+		</div>
 	</section>
-<%@ include file = "footer.jsp" %>
 <script>
 	document.getElementById("hospital").addEventListener("click", () => {
 		location.href = "/hospital_portpolio";
