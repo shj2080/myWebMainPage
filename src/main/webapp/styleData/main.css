@@ -1,0 +1,44 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	flex: 1 0 auto;
+	margin-bottom: 1rem;
+}
+
+header {
+	background-color: #0080ff;
+	color: white;
+}
+
+footer {
+	background-color: #0080ff;
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+.btn {
+	height: 150px;
+}
+
+section img {
+	max-width: 110px;
+	max-height: 100px;
+	width: 110px;
+}
